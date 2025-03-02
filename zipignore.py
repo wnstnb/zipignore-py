@@ -72,7 +72,7 @@ if __name__ == "__main__":
 
     # Generate timestamped filename
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_zip = f"form-sage-snapshot-{timestamp}.zip"
+    output_zip = f"snapshot-{timestamp}.zip"
 
     start_time = datetime.now()
     print(f"Starting zip process at {start_time.strftime('%Y-%m-%d %H:%M:%S')}...")

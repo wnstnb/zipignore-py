@@ -28,7 +28,7 @@ A Python utility to zip a directory while respecting `.gitignore` rules. This is
 3. The script will produce a zip file like:
 
     ```
-    form-sage-snapshot-20250302_161245.zip
+    snapshot-20250302_161245.zip
     ```
 
 4. Files and directories listed in `.gitignore` will be excluded from the zip.
@@ -38,11 +38,11 @@ A Python utility to zip a directory while respecting `.gitignore` rules. This is
 ```text
 Starting zip process at 2025-03-02 16:12:45...
 Zipping directory: .
-Output file will be: form-sage-snapshot-20250302_161245.zip
+Output file will be: snapshot-20250302_161245.zip
 Loading .gitignore from .gitignore...
 Loaded 12 ignore patterns.
 ✅ Zipping complete! Added 134 files.
 ⚠️ Skipped 27 files due to .gitignore rules.
-✅ Snapshot saved as form-sage-snapshot-20250302_161245.zip
+✅ Snapshot saved as snapshot-20250302_161245.zip
 Finished at 2025-03-02 16:12:49
 ⏱️ Total duration: 0:00:04
